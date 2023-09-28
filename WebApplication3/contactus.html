@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <header>
+
+
+
+
+        <nav>
+
+            <ul class="nav-links">
+                <li class="logo">RUZS</li>
+
+                <li><a href="./index.html">Home</a></li>
+
+                <li><a href="./contactus.html">Contact</a></li>
+                <li><a href="./aboutus.html">About us</a></li>
+                <li><button class="btn-danger" id="logo1"><a href="./signin.html">login</a></button></li>
+                <li><button class="btn-danger" id="logo2"><a href="./signup.html">Signup</a></button></li>
+
+
+            </ul>
+
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1 class="institute">E-commerce</h1>
+        <h1>Application Form</h1>
+        <form id="faculty-form">
+            <label for="full-name">Full Name:</label>
+            <input type="text" id="full-name" name="full-name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <br>
+
+            <label>Cities:</label>
+            <div class="radio-group">
+                <input type="radio" id="male" name="cities" value="khi" required>
+                <label for="male">Karachi</label>
+                <input type="radio" id="female" name="cities" value="qutt" required>
+                <label for="female">Quetta</label>
+
+                <input type="radio" id="Others" name="cities" value="lhr" required>
+                <label for="Others">Lahore</label>
+
+                <br>
+
+                <form>
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" name="date">
+                </form>
+
+
+
+
+            </div>
+
+
+            <label for="interests">Description</label>
+            <textarea id="interests" name="interests" required></textarea>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label>
+                <input type="checkbox" name="terms" required>
+                I agree to the terms and conditions.
+            </label>
+
+            <div class="button-group">
+                <input type="submit">
+                <input type="reset">
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>

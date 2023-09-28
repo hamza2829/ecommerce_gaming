@@ -1,0 +1,207 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./StyleSheet1.css" rel="stylesheet" />
+    <!-- Add these links in the <head> section -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+  window.onscroll = function() {myFunction()};
+
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+    </script>
+    <div class="navbar" id="navbar">
+        <a href="./index1.html"><h1>HS</h1></a>
+        <a href="./gaming_case.html">Gaming PC</a>
+        <a href="./workstation.html">WorkStation</a>
+        <a href="./accesories.html">Accesories</a>
+        <a href="./signin.aspx">logout</a>
+    </div>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="https://cdn.originpc.com/img/home/slides/2023/intel-13900KS-2.jpg" alt="First slide">
+                <div class="text1 x1">
+
+                    <h2>AMD Ryzen</h2>
+                    <p>All rise for the undeniable king of gaming. Three new AMD Ryzen 7000 Series processors with AMD 3D V-Cache™ technology for a massive gaming performance boost. </p>
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="https://cdn.originpc.com/img/home/slides/2023/nvidia-rtx-4060.jpg" alt="Second slide">
+                <div class="text1 x2">
+                    <h2>NVIDIA Geforce</h2>
+                    <p>NVIDIA Reflex delivers the ultimate competitive advantage. The lowest latency. The best responsiveness. Powered by GeForce RTX GPUs and NVIDIA® G-SYNC® Displays with Reflex.  </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="https://cdn.originpc.com/img/home/slides/2023/amd-ryzen-7000-series-3d.jpg" alt="Third slide">
+                <div class="text1 x3">
+                    <h2>Intel i9</h2>
+                    <p>The 13th Gen Intel® Core™ processor family offers faster P-cores and more E-cores with support for DDR4/DDR5 and PCIe 4.0/5.0. That provides a platform that can max out multitasking and choice for configurability.</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <div class="banner left-banner">
+        <img src="https://images.unsplash.com/photo-1587202372775-e229f172b9d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29tcHV0ZXIlMjBjYXNlfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60" style="filter: brightness(50%)" alt="Banner Image">
+        <div class="banner-text">
+            <h2>Explore Gaming PCs</h2>
+            <p>Unleash your gaming potential with our powerful gaming PCs.</p>
+            <button class="btn btn-primary">Shop Now</button>
+        </div>
+    </div>
+
+    <div class="banner right-banner">
+        <img src="https://images.unsplash.com/photo-1613014510867-a47a0e5bf564?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80" style="filter: brightness(50%)" alt="Banner Image">
+        <div class="banner-text">
+            <h2>Enhance Your Setup</h2>
+            <p>Upgrade your gaming experience with our premium accessories.</p>
+            <button class="btn btn-primary">Shop Now</button>
+        </div>
+    </div>
+
+    <div class="banner down">
+        <img src="./images/banner_4.jpg" alt="cmp" />
+        <div class="text">
+            <h2>The Best Service in Town</h2>
+            <p>To  maximixe your Gaming experience visit us now</p>
+        </div>
+    </div>
+    <br>
+    <h2 style="text-align: center;color: #ffffff;">Create Your Own Gaming Jugarnaut</h2>
+    <br>
+    <div class="row">
+
+
+
+        <div class="col-md-4 mb-4">
+            <div class="mobile-card">
+                <img src="https://cdn.originpc.com/img/workstation-desktops-2.jpg " alt="Mobile 3" class="img-fluid mb-2">
+                <div class="hover-text">
+                    <a href="./gaming_case.html"></a><h4 class="mb-3">Gaming Case</h4><a\>
+
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="mobile-card">
+                <img src="https://cdn.originpc.com/img/gaming-laptops.jpg" alt="Mobile 3" class="img-fluid mb-2">
+                <div class="hover-text">
+                    <h4 class="mb-3">WorkStation</h4>
+
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="mobile-card">
+                <img src="https://cdn.originpc.com/img/gaming-desktops-2.jpg" alt="Mobile 3" class="img-fluid mb-2">
+                <div class="hover-text">
+                    <h4 class="mb-3">Gaming PC</h4>
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    </div>
+    </div>
+    <h2 style="text-align: center;color: #ffffff;">Trending Now</h2>
+    <div class="card-deck m-4" style="margin: 10px">
+        <div class="card mb-4 bg-transparent border-primary">
+            <img class="card-img-top" src="https://images.unsplash.com/photo-1544966685-5bb6cc6cb6d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGdhbWluZyUyMG1vdXNlfGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60" alt="Card image cap">
+            <div class="card-body text-primary">
+                <h5 class="card-title">Logitech Gaming Mouse</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <button class="btn btn-outline-primary transparent-button">Shop Now</button>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+        <div class="card mb-4 bg-transparent border-primary">
+            <img class="card-img-top" src="https://images.unsplash.com/photo-1604171253006-20f7b199b5bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGdhbWluZyUyMG1vdXNlfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60" alt="Card image cap">
+            <div class="card-body text-primary">
+                <h5 class="card-title">Logitech</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <button class="btn btn-outline-primary transparent-button">Shop Now</button>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+        <div class="card mb-4 bg-transparent border-primary">
+            <img class="card-img-top" src="https://images.unsplash.com/photo-1629429408209-1f912961dbd8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z2FtaW5nJTIwbW91c2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60" alt="Card image cap">
+            <div class="card-body text-primary">
+                <h5 class="card-title">Asus Gami b </h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <button class="btn btn-outline-primary transparent-button">Shop Now</button>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>About Us</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact Us</h5>
+                    <p>Email: contact@example.com</p>
+                    <p>Phone: +1 (123) 456-7890</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Follow Us</h5>
+
+                    <p> <img src="./instagram-logo-8869 (2).png" style="height: 25px;width: 25px;" /><a href="#" class="mr-2"> Instagram</a></p>
+                    <p> <a href="#" class="mr-2">Twitter</a></p>
+                    <p><a href="#" class="mr-2">Instagram</a></p>
+
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <p>&copy; 2023 HS Gamer's. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
